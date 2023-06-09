@@ -10,9 +10,9 @@ from queue import Queue
 class CrossServer():
     def __init__(self, domain):
         self.domains = {
-            "mail.com" : {"password" : "mail" },
-            "surat.com" : {"password" : "surat" },
-            "merpati.com" : {"password" : "merpati" }
+            "realm-a.com" : {"password" : "realm-a" },
+            "realm-b.com" : {"password" : "realm-b" },
+            "realm-c.com" : {"password" : "realm-c" }
         }
         
         self.domain = domain

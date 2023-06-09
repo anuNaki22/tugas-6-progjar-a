@@ -10,9 +10,9 @@ from cross_server import CrossServer
 from queue import  Queue
 
 MAPPING_SERVER_DOMAIN = {
-    "mail.com" : {"address" : ("172.16.16.101", 9000), "password" : "mail" },
-    "surat.com" : {"address" : ("172.16.16.102", 9000), "password" : "surat" },
-    "merpati.com" : {"address" : ("172.16.16.103", 9000), "password" : "merpati" }
+    "realm-a.com" : {"address" : ("172.16.16.101", 9000), "password" : "realm-a" },
+    "realm-b.com" : {"address" : ("172.16.16.102", 9000), "password" : "realm-b" },
+    "realm-c.com" : {"address" : ("172.16.16.103", 9000), "password" : "realm-b" }
 }
 
 class BuatKoneksi(threading.Thread):
